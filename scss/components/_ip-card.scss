@@ -1,0 +1,20 @@
+.ip-card{
+    border-radius: 1rem;
+    position: absolute;
+    padding:2rem 3rem;
+    bottom: -10%;
+    background-color: $color-white;
+    width: 70%;
+    justify-content: space-between;
+    display: flex;
+    &__card{
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 6rem;
+        &:not(:last-child){
+            border-right: .4px solid $color-dark-grey;
+        }
+    }
+    
+}
