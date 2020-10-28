@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["kelven"],"mappings":"AAAA,IAAMA,MAAM,GAAG,GAAf","file":"index.js","sourceRoot":"../public/scripts","sourcesContent":["const kelven = 123;\n"]}

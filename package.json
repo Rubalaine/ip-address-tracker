@@ -5,10 +5,18 @@
   "author": "Kelven Rubalaine",
   "license": "MIT",
   "scripts": {
-    "watch:sass": "node-sass scss/main.scss css/style.css -w",
-    "build:sass": "node-sass scss/main.scss css/style.css --output-style compressed"
+    "watch:sass": "node-sass scss/main.scss public/css/style.css -w",
+    "build:sass": "node-sass scss/main.scss public/css/style.css --output-style compressed",
+    "watch:js": "parcel watch public/scripts/index.js --out-dir public/scripts --out-file bundle.js",
+    "build:js": "parcel build public/scripts/index.js --out-dir public/scripts --out-file bundle.js"
   },
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^4.14.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "axios": "^0.21.0",
+    "mapbox-gl": "^1.12.0"
   }
 }

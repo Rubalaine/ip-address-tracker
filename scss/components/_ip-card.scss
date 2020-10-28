@@ -1,20 +1,20 @@
-.ip-card{
-    border-radius: 1rem;
-    position: absolute;
-    padding:2rem 3rem;
-    bottom: -10%;
-    background-color: $color-white;
-    width: 70%;
-    justify-content: space-between;
+.ip-card {
+  border-radius: 1rem;
+  position: absolute;
+  padding: 2rem;
+  bottom: -10%;
+  background-color: $color-white;
+  margin: 0 2rem;
+  max-width: 98rem;
+  justify-content: center;
+  display: flex;
+  z-index: 69;
+  &__card {
     display: flex;
-    &__card{
-        display: flex;
-        flex-direction: column;
-        padding-left: 1rem;
-        padding-right: 6rem;
-        &:not(:last-child){
-            border-right: .4px solid $color-dark-grey;
-        }
+    flex-direction: column;
+    padding: 0 1.5rem;
+    &:not(:last-child) {
+      border-right: 0.4px solid $color-dark-grey;
     }
-    
+  }
 }

@@ -49,22 +49,23 @@ body {
 .ip-card {
   border-radius: 1rem;
   position: absolute;
-  padding: 2rem 3rem;
+  padding: 2rem;
   bottom: -10%;
   background-color: #fff;
-  width: 70%;
-  justify-content: space-between;
-  display: flex; }
+  margin: 0 2rem;
+  max-width: 98rem;
+  justify-content: center;
+  display: flex;
+  z-index: 69; }
   .ip-card__card {
     display: flex;
     flex-direction: column;
-    padding-left: 1rem;
-    padding-right: 6rem; }
+    padding: 0 1.5rem; }
     .ip-card__card:not(:last-child) {
       border-right: 0.4px solid #969696; }
 
 .search {
-  margin-top: 2rem;
+  margin: 2rem;
   display: flex;
   justify-content: center; }
   .search > * {
@@ -74,7 +75,7 @@ body {
       outline: none; }
   .search__input {
     width: 45rem;
-    margin-right: -.7rem;
+    margin-right: -0.7rem;
     padding: 1.5rem 3rem;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem; }
@@ -95,3 +96,6 @@ body {
     width: 1.5rem;
     height: 1.5rem;
     fill: #fff; }
+
+.map-container {
+  height: 100%; }
