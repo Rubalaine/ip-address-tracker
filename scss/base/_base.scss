@@ -1,19 +1,18 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 html {
-    font-size: 62.5%;
-   
-    @media only screen and (max-with: $bp-mobile) {
-        font-size: 32%;
-    }
+  font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-mobile) {
+    font-size: 50% !important;
+  }
 }
 body {
-    font-family: 'Rubik', sans-serif;
-    font-weight: 400;
-    line-height: 1.7;
-    box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  box-sizing: border-box;
 }

@@ -2,19 +2,33 @@
   border-radius: 1rem;
   position: absolute;
   padding: 2rem;
-  bottom: -10%;
+  top: 20rem;
   background-color: $color-white;
   margin: 0 2rem;
   max-width: 98rem;
   justify-content: center;
   display: flex;
   z-index: 69;
+  @media only screen and (max-width: $bp-mobile) {
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+  }
   &__card {
     display: flex;
     flex-direction: column;
     padding: 0 1.5rem;
+
     &:not(:last-child) {
       border-right: 0.4px solid $color-dark-grey;
+    }
+    @media only screen and (max-width: $bp-mobile) {
+      padding: 1rem;
+      align-items: center;
+      &:not(:last-child) {
+        // margin-bottom: 2rem;
+        border: none;
+      }
     }
   }
 }
