@@ -36,8 +36,6 @@ ip addres tracker made with HTML Javascript and Css, using Mapbox to display the
 
 ### Built With
 
-=
-
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Axios](https://github.com/axios/axios)
 - [Mapbox](https://www.mapbox.com/)
